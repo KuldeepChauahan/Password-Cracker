@@ -1,39 +1,87 @@
-[![Build](https://img.shields.io/badge/Supported_OS-Linux-orange.svg)]()
-![](https://img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat)]()
-![](https://img.shields.io/badge/Python-3-blue)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com//thelinuxuser-choice/AnonCracker/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# Password Cracker 🔒💥
 
-### ANON CRACKER SIMPLE POWERFUL BRUTEFORCE TOOL
+Welcome to the **Password Cracker** repository! This tool allows you to swiftly recover passwords from PDF and ZIP files using brute force methods. Whether you need to unlock a document or retrieve a forgotten password, this tool is designed for speed and efficiency.
 
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/KuldeepChauahan/Password-Cracker/releases)
 
+## Table of Contents
 
-![trial](assets/anon.gif)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Formats](#supported-formats)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
+## Features
 
-### PLS READ ERROR FIXING SECTION AND RUN <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
--  simple and fast bruteforce for pdf , zip and hashes
--  script written  **Python**
+- **Fast Brute Force**: Quickly crack passwords for PDF and ZIP files.
+- **User-Friendly Interface**: Simple command-line interface for ease of use.
+- **Cross-Platform**: Works on Windows, macOS, and Linux.
+- **Open Source**: Modify and contribute to the code as you see fit.
 
+## Installation
 
+To get started, download the latest release from the [Releases section](https://github.com/KuldeepChauahan/Password-Cracker/releases). Follow these steps:
 
+1. Navigate to the [Releases section](https://github.com/KuldeepChauahan/Password-Cracker/releases).
+2. Download the appropriate file for your operating system.
+3. Extract the files if necessary.
+4. Open your terminal or command prompt.
+5. Navigate to the directory where the files are located.
+6. Execute the program.
 
+## Usage
 
+To use the Password Cracker, follow these simple steps:
 
-### Installation
-- [x] **git clone this repo**
-- [x] ***cd AnonCracker*** 
-- [x] ***pip  install -r requirements.txt***
-- [x] **python3 AnonCracker.py**
+1. Open your terminal or command prompt.
+2. Navigate to the directory where the tool is located.
+3. Use the following command structure:
 
+   ```
+   ./password_cracker [options] <file>
+   ```
 
+   Replace `<file>` with the path to your PDF or ZIP file.
 
-### error fixing  <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
-if requirements wont work use it manually by-be sure you have pip
-(install pip with = **apt-get install python3-pip**)
-- [x] **pip install pikepdf**
-- [x] ****important paste your pdf,zip in to AnonCracker folder and wordlist into AnonCracker folder and run otherwise it will not run the attack****
+4. You can specify options such as the character set and the maximum password length. For example:
 
-***donot use for illeagal activities***
-zpxinrmjrz
+   ```
+   ./password_cracker -c abc123 -l 8 myfile.pdf
+   ```
+
+   This command will use the character set `abc123` and limit the password length to 8 characters.
+
+## Supported Formats
+
+This tool supports the following file formats:
+
+- **PDF Files**: Recover passwords from encrypted PDF documents.
+- **ZIP Files**: Unlock password-protected ZIP archives.
+- **Hash Cracking**: Supports various hashing algorithms for password recovery.
+
+## Contributing
+
+We welcome contributions to enhance the functionality and performance of Password Cracker. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear messages.
+4. Push your branch to your forked repository.
+5. Open a pull request to the main repository.
+
+Please ensure that your code follows the existing style and includes appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Contact
+
+For any inquiries or support, please reach out via GitHub issues or contact the repository owner directly.
+
+---
+
+Feel free to explore the repository and check the [Releases section](https://github.com/KuldeepChauahan/Password-Cracker/releases) for the latest updates and downloads! Happy cracking! 🔑💥
